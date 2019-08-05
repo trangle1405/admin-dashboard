@@ -54,7 +54,7 @@ body {
 }
 
 .search-button {
-    background: rgb(223, 217, 217);
+    background-color: rgb(223, 217, 217);
     border-radius: 50%;
     padding: 0px 10px;
     transition: all .4s;
@@ -120,9 +120,15 @@ body {
     }
 }
 
-@media(max-width: 350px) {
+@media(max-width: 375px) {
     .table td, .table th {
         padding: 0.15rem;
+    }
+    .post-icon {
+        font-size: 6em;
+    }
+    .table-fontsize{
+        font-size: 0.75rem;
     }
     
 }
