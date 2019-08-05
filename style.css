@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #eeeeee
+    background-color: #eee;
 }
 
 /* navbar */
@@ -101,3 +101,11 @@ body {
 }
 
 /* end of card */
+/* tasks */
+.task-border{
+	border-left: 3px solid #f66436;
+}
+.h8{
+	font-size: 0.85rem;
+}
+/* end of tasks */
