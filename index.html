@@ -34,7 +34,7 @@
                             <a href="#" class="text-white">Helen Smith</a>
                         </div>
                         <ul class="navbar-nav flex-column mt-">
-                            <li class="nav-item"><a href="#" class="nav-link text-white p-2 mb-2 current"><i
+                            <li class="nav-item"><a href="#" class="nav-link text-white p-2 my-3 current"><i
                                         class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a>
                             </li>
                             <li class="nav-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link"><i
@@ -86,9 +86,9 @@
                                                 class="fas fa-comments text-muted fa-lg"></i></a></li>
                                     <li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i
                                                 class="fas fa-bell text-muted fa-lg"></i></a></li>
-                                    <li class="nav-item ml-mb-auto"><a href="#" class="nav-link" data-toggle="modal"
+                                    <li class="nav-item ml-md-auto"><a href="#" class="nav-link" data-toggle="modal"
                                             data-target="#sign-out"><i
-                                                class="fas fa-sign-out-alt text-danger fa-lg"></i></a></li>
+                                                class="fas fa-sign-out-alt text-danger fa-lg "></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
                         <div class="col-xl-6 col-12 mb-4 mb-xl-0">
                             <h3 class="text-muted text-center mb-3">Staff Salary
                             </h3>
-                            <table class="table table-striper bg-light text-center">
+                            <table class="table table-striper bg-light text-center p-auto">
                                 <thead>
                                     <tr class="text-muted">
                                         <th>#</th>
@@ -260,6 +260,7 @@
                                     </tr>
                                 </tbody>
                             </table>
+
                             <!-- pagination -->
                             <nav>
                                 <ul class="pagination justify-content-center">
@@ -297,7 +298,7 @@
                         <div class="col-xl-6 col-12">
                             <h3 class="text-muted text-center mb-3">Recent Payments
                             </h3>
-                            <table class="table  table-dark  table-hover text-center">
+                            <table class="table  table-dark  table-hover text-center p-auto">
                                 <thead>
                                     <tr class="text-muted">
                                         <th>#</th>
@@ -313,21 +314,21 @@
                                         <td>Monica</td>
                                         <td>$2000</td>
                                         <td>25/05/2018</td>
-                                        <td><span class="badge badge-success w-75 py-2">Approved</span></td>
+                                        <td><span class="badge badge-success w-75 py-2  status">Approved</span></td>
                                     </tr>
                                     <tr>
                                         <th>2</th>
                                         <td>Monica</td>
                                         <td>$2000</td>
                                         <td>25/05/2018</td>
-                                        <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                        <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
                                     </tr>
                                     <tr>
                                         <th>3</th>
                                         <td>Monica</td>
                                         <td>$2000</td>
                                         <td>25/05/2018</td>
-                                        <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                        <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
                                     </tr>
                                     <tr>
                                         <th>4</th>
@@ -341,7 +342,7 @@
                                         <td>Monica</td>
                                         <td>$2000</td>
                                         <td>25/05/2018</td>
-                                        <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                        <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
                                     </tr>
                                     <tr>
                                         <th>6</th>
@@ -395,7 +396,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-                    <div class="row mb-4 align-items-center">
+                    <div class="row mb-4 align-items-center mb-5">
                         <div class="col-xl-6 col-12 mb-4 mb-xl-0">
                             <div class="bg-dark text-white p-4 rounded">
                                 <h4 class="mb-5">Conversion Rates </h4>
@@ -541,7 +542,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-                    <div class="row align-items-center mb-5">
+                    <div class="row  mb-5">
                         <div class="col-xl-7">
                             <h4 class=" h4 text-muted mb-4">Recent Customer Activities</h4>
                             <div id="accordion">
@@ -549,7 +550,8 @@
                                     <div class="card-header">
                                         <button class="btn btn-block bg-secondary text-light text-left  "
                                             data-toggle="collapse" data-target="#collapseOne">
-                                            <img src="images/customer.jpg" width="50" height="40"  class="mr-3 rounded"> John posted
+                                            <img src="images/customer.jpg" width="50" height="40" class="mr-3 rounded">
+                                            John posted
                                             a
                                             new comment
                                         </button>
@@ -568,7 +570,8 @@
                                     <div class="card-header">
                                         <button class="btn btn-block bg-secondary text-light text-left  "
                                             data-toggle="collapse" data-target="#collapseTwo">
-                                            <img src="images/customer2.jpg" width="50" height="40"  class="mr-3 rounded"> Mark posted
+                                            <img src="images/customer2.jpg" width="50" height="40" class="mr-3 rounded">
+                                            Mark posted
                                             a
                                             new comment
                                         </button>
@@ -587,7 +590,8 @@
                                     <div class="card-header">
                                         <button class="btn btn-block bg-secondary text-light text-left  "
                                             data-toggle="collapse" data-target="#collapseThree">
-                                            <img src="images/customer3.jpg" width="50" height="40"  class="mr-3 rounded"> Dave posted
+                                            <img src="images/customer3.jpg" width="50" height="40" class="mr-3 rounded">
+                                            Dave posted
                                             a
                                             new comment
                                         </button>
@@ -606,7 +610,8 @@
                                     <div class="card-header">
                                         <button class="btn btn-block bg-secondary text-light text-left  "
                                             data-toggle="collapse" data-target="#collapseFour">
-                                            <img src="images/customer4.jpg" width="50" height="40"  class="mr-3 rounded"> Trump
+                                            <img src="images/customer4.jpg" width="50" height="40" class="mr-3 rounded">
+                                            Trump
                                             posted
                                             a
                                             new comment
@@ -626,7 +631,8 @@
                                     <div class="card-header">
                                         <button class="btn btn-block bg-secondary text-light text-left"
                                             data-toggle="collapse" data-target="#collapseFive">
-                                            <img src="images/customer5.jpg" width="50" height="40"  class="mr-3 rounded"> Obama
+                                            <img src="images/customer5.jpg" width="50" height="40" class="mr-3 rounded">
+                                            Obama
                                             posted
                                             a
                                             new comment
@@ -646,7 +652,8 @@
                                     <div class="card-header">
                                         <button class="btn btn-block bg-secondary text-light text-left "
                                             data-toggle="collapse" data-target="#collapseSix">
-                                            <img src="images/customer6.jpg" width="50" height="40"  class="mr-3 rounded"> Sarah
+                                            <img src="images/customer6.jpg" width="50" height="40" class="mr-3 rounded">
+                                            Sarah
                                             posted
                                             a
                                             new comment
@@ -664,8 +671,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 mt-5">
-                            <div class="card rounded">
+                        <div class="col-xl-5">
+                            <div class="card rounded mt-5">
                                 <div class="card-body">
                                     <h5 class="h5 text-muted text-center mb-4">Quick Status Post</h5>
                                     <ul class="list-inline text-center py-3">
@@ -707,14 +714,14 @@
                                             </div>
                                         </div>
                                         <div class="col-6">
-                                                <div class="card bg-light">
-                                                        <i class="fa fa-clock fa-8x text-danger d-block m-auto py-3"
-                                                            aria-hidden="true"></i>
-                                                        <div class="card-body">
-                                                            <p class="card-text text-center font-weight-bold text-uppercase">
-                                                                3:30</p>
-                                                        </div>
-                                                    </div>
+                                            <div class="card bg-light">
+                                                <i class="fa fa-clock fa-8x text-danger d-block m-auto py-3"
+                                                    aria-hidden="true"></i>
+                                                <div class="card-body">
+                                                    <p class="card-text text-center font-weight-bold text-uppercase">
+                                                        3 : 30</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -729,40 +736,40 @@
 
     <!-- end of activities / quick post -->
     <!-- footer -->
-	<footer>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-                        <div class="row border-top pt-3">
-                            <div class="col-lg-6 text-center">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item mr-2">
-                                        <a href="#" class="text-dark">CodeAndCreate</a>
-                                    </li>
-                                    <li class="list-inline-item mr-2">
-                                        <a href="#" class="text-dark">About</a>
-                                    </li>
-                                    <li class="list-inline-item mr-2">
-                                        <a href="#" class="text-dark">Support</a>
-                                    </li>
-                                    <li class="list-inline-item mr-2">
-                                        <a href="#" class="text-dark">Blog</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6 text-center">
-                                <p>
-                                    &copy; 2019 Copyright. Made With
-                                    <i class="fas fa-heart text-danger"></i>
-                                    by <span class="text-success">CodeAndCreate</span>
-                                </p>
-                            </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <div class="row border-top pt-3">
+                        <div class="col-lg-6 text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-dark">CodeAndCreate</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-dark">About</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-dark">Support</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-dark">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <p>
+                                &copy; 2019 Copyright. Made With
+                                <i class="fas fa-heart text-danger"></i>
+                                by <span class="text-success">CodeAndCreate</span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- end of footer -->
+        </div>
+    </footer>
+    <!-- end of footer -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
