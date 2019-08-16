@@ -62,6 +62,7 @@ body {
 .search-button:hover{
     background-color: #eeeeee;
     transform: translateY(-1px);
+    box-shadow: none;
 }
 .icon-parent {
     position: relative;
@@ -79,7 +80,7 @@ body {
 
 }
 
-@media(max-width:768px){
+@media(max-width:767px){
     .sidebar{
         position: static;
         height: auto;
@@ -110,25 +111,40 @@ body {
 	font-size: 0.85rem;
 }
 
+
+
 @media(max-width: 500px) {
-    .table td, .table th {
-        padding: 0.2rem;
+    /* .table td, .table th {
+        padding: 0.1rem;
+    } */
+
+    body {
+        font-size: 0.9rem;
     }
+    /* p{
+        font-size: 0.8rem;
+    } */
 
     .status{
-        width: 80%;
+        width: 100%!important;
     }
 }
 
 @media(max-width: 375px) {
-    .table td, .table th {
+    /* .table td, .table th {
         padding: 0.15rem;
-    }
+    } */
     .post-icon {
         font-size: 6em;
     }
-    .table-fontsize{
+    /* .table-fontsize{
         font-size: 0.75rem;
     }
+    .task-fontsize{
+        font-size: 0.9rem;
+    }
+    .customer-fontsize{
+        font-size: 0.65rem;
+    } */
     
 }

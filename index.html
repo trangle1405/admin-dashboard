@@ -17,7 +17,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light " id="changeClassNavbar">
         <button class="navbar-togger ml-auto mb-2 mb-light" type="button" data-toggle="collapse"
             data-target="#myNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -26,14 +26,14 @@
             <div class="container-fluid ">
                 <div class="row">
                     <!-- sidebar -->
-                    <div class=" col-lg-3 col-xl-2 col-md-4   fixed-top sidebar" id="sidebar">
+                    <div class=" col-lg-3 col-xl-2 col-md-4 fixed-top sidebar" id="sidebar">
                         <a href="#"
                             class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">CodeAndCreate</a>
                         <div class="bottom-border pb-3">
                             <img src="images/admin.jpg" width='45' class="rounded-circle mr-3">
                             <a href="#" class="text-white">Helen Smith</a>
                         </div>
-                        <ul class="navbar-nav flex-column mt-">
+                        <ul class="navbar-nav flex-column">
                             <li class="nav-item"><a href="#" class="nav-link text-white p-2 my-3 current"><i
                                         class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a>
                             </li>
@@ -75,7 +75,7 @@
                                 <form>
                                     <div class="input-group">
                                         <input type="text" class="form-control search-input" placeholder="Search...">
-                                        <button type="button" class="btn btn-light search-button"><i
+                                        <button type="button" class="btn btn-white search-button"><i
                                                 class="fas fa-search text-danger"></i></button>
                                     </div>
                                 </form>
@@ -183,7 +183,7 @@
                                     <div class="d-flex justify-content-between">
                                         <i class="fas fa-chart-line fa-3x text-danger"></i>
                                         <div class="text-right text-secondary">
-                                            <h5>Sales</h5>
+                                            <h5>Visitors</h5>
                                             <h3>$13,000</h3>
                                         </div>
                                     </div>
@@ -212,54 +212,62 @@
                         <div class="col-xl-6 col-12 mb-4 mb-xl-0">
                             <h3 class="text-muted text-center  mb-3">Staff Salary
                             </h3>
-                            <table class="table table-striped bg-light text-center p-auto table-fontsize">
-                                <thead>
-                                    <tr class="text-muted">
-                                        <th>#</th>
-                                        <th>Name</th>
-                                        <th>Salary</th>
-                                        <th>Date</th>
-                                        <th>Contact</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>1</th>
-                                        <td>John</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><button type="button" class="btn btn-info btn-sa table-fontsize">Message</button></td>
-                                    </tr>
-                                    <tr>
-                                        <th>2</th>
-                                        <td>John</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><button type="button" class="btn btn-info btn-sa table-fontsize">Message</button></td>
-                                    </tr>
-                                    <tr>
-                                        <th>3</th>
-                                        <td>John</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><button type="button" class="btn btn-info btn-sa table-fontsize">Message</button></td>
-                                    </tr>
-                                    <tr>
-                                        <th>4</th>
-                                        <td>John</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><button type="button" class="btn btn-info btn-sa table-fontsize">Message</button></td>
-                                    </tr>
-                                    <tr>
-                                        <th>5</th>
-                                        <td>John</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><button type="button" class="btn btn-info btn-sa table-fontsize">Message</button></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive-sm">
+                                <table class="table table-striped bg-light text-center p-auto table-fontsize">
+                                    <thead>
+                                        <tr class="text-muted">
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Salary</th>
+                                            <th>Date</th>
+                                            <th>Contact</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>1</th>
+                                            <td>John</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><button type="button"
+                                                    class="btn btn-info btn-sa table-fontsize">Message</button></td>
+                                        </tr>
+                                        <tr>
+                                            <th>2</th>
+                                            <td>Jame</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><button type="button"
+                                                    class="btn btn-info btn-sa table-fontsize">Message</button></td>
+                                        </tr>
+                                        <tr>
+                                            <th>3</th>
+                                            <td>Sara</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><button type="button"
+                                                    class="btn btn-info btn-sa table-fontsize">Message</button></td>
+                                        </tr>
+                                        <tr>
+                                            <th>4</th>
+                                            <td>Tom</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><button type="button"
+                                                    class="btn btn-info btn-sa table-fontsize">Message</button></td>
+                                        </tr>
+                                        <tr>
+                                            <th>5</th>
+                                            <td>Ana</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><button type="button"
+                                                    class="btn btn-info btn-sa table-fontsize">Message</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
 
                             <!-- pagination -->
                             <nav>
@@ -298,61 +306,64 @@
                         <div class="col-xl-6 col-12">
                             <h3 class="text-muted text-center mb-3">Recent Payments
                             </h3>
-                            <table class="table  table-dark  table-hover  text-center p-auto table-fontsize">
-                                <thead>
-                                    <tr class="text-muted">
-                                        <th>#</th>
-                                        <th>Name</th>
-                                        <th>Price</th>
-                                        <th>Date</th>
-                                        <th>Status</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>1</th>
-                                        <td>Monica</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><span class="badge badge-success w-75 py-2  status">Approved</span></td>
-                                    </tr>
-                                    <tr>
-                                        <th>2</th>
-                                        <td>Monica</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <th>3</th>
-                                        <td>Monica</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <th>4</th>
-                                        <td>Monica</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><span class="badge badge-success w-75 py-2">Approved</span></td>
-                                    </tr>
-                                    <tr>
-                                        <th>5</th>
-                                        <td>Monica</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>Monica</td>
-                                        <td>$2000</td>
-                                        <td>25/05/2018</td>
-                                        <td><span class="badge badge-success w-75 py-2">Approved</span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive-sm">
+                                <table class="table table-dark table-hover text-center p-auto table-fontsize">
+                                    <thead>
+                                        <tr class="text-muted">
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Price</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>1</th>
+                                            <td>Monica</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><span class="badge badge-success w-75 py-2  status">Approved</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th>2</th>
+                                            <td>Mike</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th>3</th>
+                                            <td>Alex</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th>4</th>
+                                            <td>Jame</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><span class="badge badge-success w-75 py-2 status">Approved</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th>5</th>
+                                            <td>Jack</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><span class="badge badge-danger w-75 py-2 status">Pending</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th>6</th>
+                                            <td>Tom</td>
+                                            <td>$2000</td>
+                                            <td>25/05/2018</td>
+                                            <td><span class="badge badge-success w-75 py-2 status">Approved</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                             <!-- pagination -->
                             <nav>
                                 <ul class="pagination justify-content-center">
@@ -409,8 +420,8 @@
                                 <h6 class="mb-3">Mozilla Firefox</h6>
                                 <div class="progress mb-4" style="height: 20px">
                                     <div class="progress-bar progress-bar-striped font-weight-bold bg-success"
-                                        style="width:45%">
-                                        45%
+                                        style="width:82%">
+                                        82%
                                     </div>
                                 </div>
                                 <h6 class="mb-3">Safari</h6>
@@ -428,10 +439,30 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-12">
+                        <div class="col-xl-6 col-12 task-fontsize">
                             <h4 class="text-muted p-3 mb-3">Tasks:</h4>
                             <div class="container-fluid bg-white">
-                                <div class="row py-3 mb-4 task-border align-items-center">
+                                <div class="row py-3 pr-2 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="<h6>edit</h6>" data-html="true"
+                                            data-placement="top"><i class="fas fa-edit fa-lg text-success mr-2"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="<h6>delete</h6>" data-html="true"
+                                            data-placement="top"><i class="fas fa-trash-alt fa-lg text-danger mr-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid bg-white ">
+                                <div class="row py-3 pr-2 mb-4 task-border align-items-center">
                                     <div class="col-1">
                                         <input type="checkbox" checked>
                                     </div>
@@ -451,7 +482,7 @@
                                 </div>
                             </div>
                             <div class="container-fluid bg-white">
-                                <div class="row py-3 mb-4 task-border align-items-center">
+                                <div class="row py-3 pr-2 mb-4 task-border align-items-center">
                                     <div class="col-1">
                                         <input type="checkbox" checked>
                                     </div>
@@ -471,7 +502,7 @@
                                 </div>
                             </div>
                             <div class="container-fluid bg-white">
-                                <div class="row py-3 mb-4 task-border align-items-center">
+                                <div class="row py-3 pr-2 mb-4 task-border align-items-center">
                                     <div class="col-1">
                                         <input type="checkbox" checked>
                                     </div>
@@ -491,27 +522,7 @@
                                 </div>
                             </div>
                             <div class="container-fluid bg-white">
-                                <div class="row py-3 mb-4 task-border align-items-center">
-                                    <div class="col-1">
-                                        <input type="checkbox" checked>
-                                    </div>
-                                    <div class="col-sm-9 col-8">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                    </div>
-                                    <div class="col-1">
-                                        <a href="#" data-toggle="tooltip" title="<h6>edit</h6>" data-html="true"
-                                            data-placement="top"><i class="fas fa-edit fa-lg text-success mr-2"></i>
-                                        </a>
-                                    </div>
-                                    <div class="col-1">
-                                        <a href="#" data-toggle="tooltip" title="<h6>delete</h6>" data-html="true"
-                                            data-placement="top"><i class="fas fa-trash-alt fa-lg text-danger mr-2"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid bg-white">
-                                <div class="row py-3 mb-4 task-border align-items-center">
+                                <div class="row py-3 pr-2 mb-4 task-border align-items-center">
                                     <div class="col-1">
                                         <input type="checkbox" checked>
                                     </div>
@@ -540,21 +551,20 @@
     <!-- activities / quick post -->
     <section>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+            <div class="row ">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto ">
                     <div class="row  mb-5">
                         <div class="col-xl-7">
                             <h4 class=" h4 text-muted mb-4">Recent Customer Activities</h4>
                             <div id="accordion">
-                                <div class="card">
+                                <div class="card ">
                                     <div class="card-header">
-                                        <button class="btn btn-block bg-secondary text-light text-left  "
+                                        <div class="d-flex flex-row btn btn-block bg-secondary text-light text-left customer-fontsize "
                                             data-toggle="collapse" data-target="#collapseOne">
-                                            <img src="images/customer.jpg" width="50" height="40" class="mr-3 rounded">
-                                            John posted
-                                            a
-                                            new comment
-                                        </button>
+                                            <img src="images/customer.jpg" width="50" height="40"
+                                                class="mr-3 rounded align-self-center">
+                                            <div class="align-self-center">Mark posted a new comment</div>
+                                        </div>
                                     </div>
                                     <div class="collapse" id="collapseOne" data-parent="#accordion">
                                         <div class="card-body">
@@ -568,13 +578,12 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-header">
-                                        <button class="btn btn-block bg-secondary text-light text-left  "
+                                        <div class="d-flex flex-row btn btn-block bg-secondary text-light text-left  "
                                             data-toggle="collapse" data-target="#collapseTwo">
-                                            <img src="images/customer2.jpg" width="50" height="40" class="mr-3 rounded">
-                                            Mark posted
-                                            a
-                                            new comment
-                                        </button>
+                                            <img src="images/customer2.jpg" width="50" height="40"
+                                                class="mr-3 rounded align-self-center">
+                                            <div class="align-self-center">Jame posted a new comment</div>
+                                        </div>
                                     </div>
                                     <div class="collapse" id="collapseTwo" data-parent="#accordion">
                                         <div class="card-body">
@@ -588,13 +597,12 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-header">
-                                        <button class="btn btn-block bg-secondary text-light text-left  "
+                                        <div class="d-flex flex-row btn btn-block bg-secondary text-light text-left  "
                                             data-toggle="collapse" data-target="#collapseThree">
-                                            <img src="images/customer3.jpg" width="50" height="40" class="mr-3 rounded">
-                                            Dave posted
-                                            a
-                                            new comment
-                                        </button>
+                                            <img src="images/customer3.jpg" width="50" height="40"
+                                                class="mr-3 rounded align-self-center">
+                                            <div class="align-self-center">Sara posted a new comment</div>
+                                        </div>
                                     </div>
                                     <div class="collapse" id="collapseThree" data-parent="#accordion">
                                         <div class="card-body">
@@ -608,14 +616,12 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-header">
-                                        <button class="btn btn-block bg-secondary text-light text-left  "
+                                        <div class="d-flex flex-row btn btn-block bg-secondary text-light text-left  "
                                             data-toggle="collapse" data-target="#collapseFour">
-                                            <img src="images/customer4.jpg" width="50" height="40" class="mr-3 rounded">
-                                            Trump
-                                            posted
-                                            a
-                                            new comment
-                                        </button>
+                                            <img src="images/customer4.jpg" width="50" height="40"
+                                                class="mr-3 rounded align-self-center">
+                                            <div class="align-self-center">Na posted a new comment</div>
+                                        </div>
                                     </div>
                                     <div class="collapse" id="collapseFour" data-parent="#accordion">
                                         <div class="card-body">
@@ -629,14 +635,12 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-header">
-                                        <button class="btn btn-block bg-secondary text-light text-left"
+                                        <div class="d-flex flex-row  btn btn-block bg-secondary text-light text-left"
                                             data-toggle="collapse" data-target="#collapseFive">
-                                            <img src="images/customer5.jpg" width="50" height="40" class="mr-3 rounded">
-                                            Obama
-                                            posted
-                                            a
-                                            new comment
-                                        </button>
+                                            <img src="images/customer5.jpg" width="50" height="40"
+                                                class="mr-3 rounded align-self-center">
+                                            <div class="align-self-center">Jack posted a new comment</div>
+                                        </div>
                                     </div>
                                     <div class="collapse" id="collapseFive" data-parent="#accordion">
                                         <div class="card-body">
@@ -650,14 +654,12 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-header">
-                                        <button class="btn btn-block bg-secondary text-light text-left "
+                                        <div class="d-flex flex-row btn btn-block bg-secondary text-light text-left "
                                             data-toggle="collapse" data-target="#collapseSix">
-                                            <img src="images/customer6.jpg" width="50" height="40" class="mr-3 rounded">
-                                            Sarah
-                                            posted
-                                            a
-                                            new comment
-                                        </button>
+                                            <img src="images/customer6.jpg" width="50" height="40"
+                                                class="mr-3 rounded align-self-center">
+                                            <div class="align-self-center">Sara posted a new comment</div>
+                                        </div>
                                     </div>
                                     <div class="collapse" id="collapseSix" data-parent="#accordion">
                                         <div class="card-body">
@@ -676,20 +678,20 @@
                                 <div class="card-body">
                                     <h5 class="h5 text-muted text-center mb-4">Quick Status Post</h5>
                                     <ul class="list-inline text-center py-3">
-                                        <li class="list-inline-item mr-4">
+                                        <li class="list-inline-item mx-2">
                                             <a href="#"></a>
                                             <i class="fas fa-pencil-alt text-success"></i>
                                             <span class="h6 text-muted">status</span>
                                         </li>
-                                        <li class="list-inline-item mr-4">
+                                        <li class="list-inline-item mx-2">
                                             <a href="#"></a>
                                             <i class="fas fa-camera text-info"></i>
-                                            <span class="h6 text-muted">status</span>
+                                            <span class="h6 text-muted">Photo</span>
                                         </li>
-                                        <li class="list-inline-item">
+                                        <li class="list-inline-item mx-2">
                                             <a href="#"></a>
                                             <i class="fas fa-map-marker-alt text-primary"></i>
-                                            <span class="h6 text-muted">status</span>
+                                            <span class="h6 text-muted">Check-in</span>
                                         </li>
                                     </ul>
                                     <form>
@@ -707,7 +709,7 @@
                                             <div class="card bg-light">
                                                 <i class="fa fa-calendar-alt fa-8x text-warning d-block m-auto py-3 post-icon"
                                                     aria-hidden="true"></i>
-                                                <div class="card-body">
+                                                <div class="card-body px-0">
                                                     <p class="card-text text-center font-weight-bold text-uppercase">
                                                         Mon, May 26</p>
                                                 </div>
@@ -715,7 +717,7 @@
                                         </div>
                                         <div class="col-6">
                                             <div class="card bg-light">
-                                                <i class="fa fa-clock fa-8x text-danger d-block m-auto py-3 post-icon" 
+                                                <i class="fa fa-clock fa-8x text-danger d-block m-auto py-3 post-icon"
                                                     aria-hidden="true"></i>
                                                 <div class="card-body">
                                                     <p class="card-text text-center font-weight-bold text-uppercase">
